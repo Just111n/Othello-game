@@ -1,14 +1,14 @@
-# Othello-game
+## Othello Game
 
+This is a Python implementation of the traditional **Othello** game, featuring a graphical user interface (GUI) built using **Tkinter**.
 
-Othello game is created with Python. 
+### Key Features:
+- Follows the official Othello rules as outlined by the [World Othello Federation](https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english).
+- Simple and intuitive interface with no external third-party modules required.
 
-Used tkinter for the creation of the GUI. 
+### How to Run:
+1. Ensure that both `gui.py` and `othello.py` are placed in the same directory.
+2. Execute `gui.py` to launch the game.
 
-No other third party modules required.
-
-The game follows the traditional rules of Othello: https://www.worldothello.org/about/about-othello/othello-rules/official-rules/english
-
-To run the game, place gui.py and othello.py in the same folder and run gui.py.
-
-In situation where current player have no valid moves in his turn, click anywhere within the game window to skip the turn.
+### Game Play:
+- In situations where the current player has no valid moves, click anywhere within the game window to skip the turn automatically.
